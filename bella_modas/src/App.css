@@ -1,0 +1,61 @@
+:root {
+  --primary-color: #d2b48c; /* tom areia/bege */
+  --secondary-color: #c19a6b; /* marrom claro */
+  --text-color: #5c4033; /* marrom escuro */
+  --bg-color: #f5f5dc; /* bege bem claro */
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.navbar {
+  background-color: var(--primary-color);
+}
+
+.nav-link,
+.navbar-brand {
+  color: var(--text-color) !important;
+}
+
+.hero {
+  padding: 4rem 2rem;
+  background-color: var(--secondary-color);
+  color: white;
+  text-align: center;
+}
+
+.section {
+  padding: 4rem 2rem;
+}
+
+footer {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.nav_img {
+  border-radius: 10px;
+  border: solid 2px black;
+}
+
+.text_decoration {
+  text-decoration: none;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.content-wrap {
+  flex: 1;
+}
+
