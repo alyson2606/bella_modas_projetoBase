@@ -3,6 +3,7 @@ import "../App.css";
 
 export default function Home() {
   return (
+
     <div className="main-container">
       <nav className="navbar navbar-expand-lg">
         <div className="container">
@@ -42,7 +43,7 @@ export default function Home() {
             <h2 className="text-center mb-4">Nossos Produtos</h2>
             <div className="row">
               <div className="col-12 col-md-4 mb-4">
-                <Link to="/produto/blusas" className="text-decoration-none">
+                <Link to="/Blusas" className="text-decoration-none">
                   <div className="card h-100" style={{backgroundColor: "var(--bg-color)", borderColor: "var(--secondary-color)"}}>
                     <div className="card-body text-center">
                       <h5 className="card-title">Blusas</h5>
@@ -52,17 +53,17 @@ export default function Home() {
                 </Link>
               </div>
               <div className="col-12 col-md-4 mb-4">
-                <Link to="/produto/saias" className="text-decoration-none">
+                <Link to="/saias" className="text-decoration-none">
                   <div className="card h-100" style={{backgroundColor: "var(--bg-color)", borderColor: "var(--secondary-color)"}}>
                     <div className="card-body text-center">
-                      <h5 className="card-title">Saias</h5>
+                      <h5 className="card-title ">Saias</h5>
                       <p className="card-text">Saias que valorizam sua silhueta e garantem conforto.</p>
                     </div>
                   </div>
                 </Link>
               </div>
               <div className="col-12 col-md-4 mb-4">
-                <Link to="/produto/acessorios" className="text-decoration-none">
+                <Link to="/Acessorios" className="text-decoration-none">
                   <div className="card h-100" style={{backgroundColor: "var(--bg-color)", borderColor: "var(--secondary-color)"}}>
                     <div className="card-body text-center">
                       <h5 className="card-title">Acessórios</h5>
