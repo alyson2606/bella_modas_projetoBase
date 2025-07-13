@@ -1,5 +1,5 @@
 import { useParams, Link } from "react-router-dom";
-import { Helmet } from "react-helmet";
+import { Helmet } from 'react-helmet';
 import "../App.css";
 
 export default function ProdutoPage() {

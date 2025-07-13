@@ -4,7 +4,7 @@ import Pratas from '../img/anel_banhado.jpg'
 import ButtonExit from '../components/ButtonExit'
 import Aba_Produtos from '../components/aba_produtos'
 import anel_1 from '../img/anel_banhado.jpg'
-import anel_2 from '../img/anel_prata.jpg'
+import anel_2 from "../img/anel_prata.jpg"
 const Acessorios = () => {
   return (
    <div>

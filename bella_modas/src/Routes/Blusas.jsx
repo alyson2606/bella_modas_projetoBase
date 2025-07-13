@@ -2,7 +2,7 @@ import React from 'react'
 import CardProduto from "../components/CardProduto";
 
 import ButtonExit from '../components/ButtonExit';
-import Aba_Produtos from '../components/aba_produtos';
+import Aba_Produtos from "../components/aba_produtos";
 import blusa from "../img/blusa_preta.jpg"
 
 

@@ -2,7 +2,7 @@ import React from 'react'
 import CardProduto from '../components/CardProduto'
 import ButtonExit from '../components/ButtonExit'
 import Aba_Produtos from '../components/aba_produtos'
-import Saia from '../img/saia_junina.jpg'
+import Saia from "../img/saia_junina.jpg"
 ButtonExit
 const Saias = () => {
   return (

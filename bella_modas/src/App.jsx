@@ -3,7 +3,7 @@ import ProdutoPage from './components/ProdutoPage'
 import Home from './Routes/Home'
 import Saias from './Routes/Saias'
 import Blusas from './Routes/Blusas'
-import Acessorios from './Routes/Acessorios'
+import Acessorios from "./Routes/Acessorios"
 
 import './App.css'
 export default function App() {
