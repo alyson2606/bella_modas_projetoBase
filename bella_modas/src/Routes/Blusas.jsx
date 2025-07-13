@@ -3,6 +3,8 @@ import CardProduto from "../components/CardProduto";
 
 import ButtonExit from '../components/ButtonExit';
 import Aba_Produtos from '../components/aba_produtos';
+import blusa from "../img/blusa_preta.jpg"
+
 
 const Blusas = () => {
   return (
@@ -12,11 +14,12 @@ const Blusas = () => {
       </nav>
     <section>
       <CardProduto 
-    titulo="Blusas"
+     titulo="Blusas"
     descricao="Modelos leves, sofisticados, ideais para todas as estações.    
     Adcione seu produto aqui!"
-    imagem={'Adcione seu modelo de blusa aqui!'}
-    alt="Blusas Bella Modas"
+    imagem={blusa}
+    alt="Blusas Bella Modas" 
+
   />
       </section>  
     <ButtonExit/>

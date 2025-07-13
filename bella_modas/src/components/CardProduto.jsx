@@ -1,11 +1,13 @@
-export default function CardProduto({ titulo, descricao, imagem, alt }) {
+export default function CardProduto({ titulo, descricao, imagem, alt, nav }) {
   return (
     <div className="container mt-5">
+      <nav> {nav}</nav>
       <div className="card mx-auto" style={{ maxWidth: "600px", backgroundColor: "var(--bg-color)", borderColor: "var(--secondary-color)" }}>
         <img src={imagem} className="card-img-top" alt={alt} />
         <div className="card-body text-center">
           <h3 className="card-title">{titulo}</h3>
           <p className="card-text">{descricao}</p>
+
         </div>
       </div>
     </div>
